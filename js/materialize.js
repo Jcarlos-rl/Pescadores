@@ -5,17 +5,14 @@ $(document).ready(function(){
 
 /*carousel*/
 var instance = M.Carousel.init({
-    fullWidth: true,
     indicators: true
   });
 
   // Or with jQuery
-
 $('.carousel.carousel-slider').carousel({
-    fullWidth: true,
     indicators: true
 });
-setTimeout(autoplay, 4000);
+setTimeout(autoplay, 6000);
 function autoplay() {
     $('.carousel').carousel('next');
     setTimeout(autoplay, 4000);
