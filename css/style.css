@@ -14,20 +14,40 @@ body{
 .pescadores-color-background{
     background-color: #fa8619;
 }
+.pescadores-color-background-opacity{
+    background-color: rgba(250, 134, 25, .7);
+}
 .pescadores-color-background-azul{
     background-color: #32c0c4;
+}
+.pescadores-color-background-azul-opacity{
+    background-color: rgba(50, 192, 196,.7);
+}
+.galeria{
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-top: 0;
+}
+.contacto{
+    margin-bottom: 0;
+}
+.escucharte{
+    margin-top: 0;
 }
 .input-field input[type=text] {
     border: 2px solid #fa8619;
     border-radius: 4px;
+    background-color: white;
 }
 .input-field input[type=email] {
     border: 2px solid #fa8619;
     border-radius: 4px;
+    background-color: white;
 }
 .input-field textarea {
     border: 2px solid #fa8619;
     border-radius: 4px;
+    background-color: white;
 }
 .row .input-field input:focus {
     border-bottom: 1px solid #fa8619 !important;
@@ -63,4 +83,26 @@ body{
 .slider .slides li .caption{
     width: 100%;
     left: 0%;
+}
+.nosotros{
+    background-image: url(../images/patron-rombos-blancos_1053-235.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.galery{
+    margin-top: -13px;
+}
+.btn, .btn-large, .btn-small{
+    background-image: url(../images/patron-rombos-blancos_1053-235.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000;
+}
+.btn, .btn-large, .btn-small, .btn-flat{
+    height: 60px;
+}
+.contac{
+    background-image: url(../images/Los_Pescadores_Restaurante_Tacos_De_Hamachi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
