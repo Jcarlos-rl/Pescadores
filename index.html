@@ -10,139 +10,197 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="navbar-fixed">
-        <nav class="pescadores-color-background">
+    <div class="slider">
+        <nav class="pescadores-color-background" style="position: absolute; z-index:100; opacity: .7;">
             <div class="container">
                 <div class="nav-wrapper">
-                    <img class="icon right" src="images/pesca.png" alt="">
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <ul class="left hide-on-med-and-down">
-                        <li><a href="">Link 1</a></li>
-                        <li><a href="">Link 2</a></li>
-                        <li><a href="">Link 3</a></li>
+                    <a href="#!" class="brand-logo center">
+                        <img style="height:65px" src="images/pesca.png" alt="">
+                    </a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down hide-on-large-only">
+                        <li><a href="sass.html">Sass</a></li>
+                        <li><a href="badges.html">Components</a></li>
+                        <li><a href="collapsible.html">Javascript</a></li>
+                        <li><a href="mobile.html">Mobile</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">Javascript</a></li>
+            <li><a href="mobile.html">Mobile</a></li>
+        </ul>
+        <ul class="slides">
+            <li>
+                <img src="images/Los_Pescadores_pulpo_alPesto.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h2 class="pescadores-color-background" style="margin-top:250px; opacity: .7;">Cocina Sin Límites</h2>
+                </div>
+            </li>
+            <li>
+                <img src="images/Los_Pescadores_cumpleaños.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h2 class="pescadores-color-background" style="margin-top:250px; opacity: .7;">Tan especial como el mar</h2>
+                </div>
+            </li>
+            <li>
+                <img src="images/Los_Pescadores_Cocina_sin-Limites.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h2 class="pescadores-color-background" style="margin-top:250px; opacity: .7;">El sabor del mar en tu ciudad</h2>
+                </div>
+            </li>
+        </ul>
     </div>
-
-    <ul class="sidenav" id="mobile-demo">
-        <li><a href="">Link 1</a></li>
-        <li><a href="">Link 2</a></li>
-        <li><a href="">Link 3</a></li>
-    </ul>
-
-    <!-- Carousel -->
-    <div class="carousel carousel-slider center">
-        <div class="carousel-fixed-item center">
-            <h4 class="white-text hide-on-med-and-up">COCINA SIN LIMITES</h4>
-            <h1 class="white-text hide-on-small-only">COCINA SIN LIMITES</h1>
+    <section>
+        <div class="container">
+            <br>
+            <h2 class="center">NUESTRA COCINA</h2>
+            <p class="center">
+                Los Pescadores somos más que un restaurante de mariscos, nos caracterizamos por nuestra calidéz, ambiente especial y excelente servicio. 
+                <br>
+                Desde hace más de 15 años, nos hemos distinguido por tener ingredientes frescos y el mejor sazón veracruzano en la ciudad de Puebla, todo para hacer de la visita de nuestros clientes un momento agradable, lleno de alegría y excelentes recuerdos. Nuestra Cocina Sin Límites, hará gozar a tu paladar cada bocado de nuestros platillos especiales en Los Pescadores, disfrutando del sabor del pescado y los mariscos que tanto te gustan. 
+                <br>
+                Contamos con tres sucursales en la ciudad, para que siempre puedas disfrutar de la variedad del mar: Calzada Zavaleta, San Manuel y Orión. Visítanos y déjate consentir por los sabores de la costa, en cada bocado te sentirás justo como en el mar. Los Pescadores, Cocina Sin Límites.                    
+            </p>
         </div>
-        <div class="carousel-item white-text" href="#one!">
-            <img src="images/comida2.jpg" alt="">
+        <h2 class="pescadores-color-background-azul center" style="color: white" >¿ANTOJO DE MARISCOS?</h2>
+        <!-- Movil -->
+        <div class="hide-on-med-and-up">
+            <div class="row">
+                <div class="col s6">
+                    <img class="materialboxed responsive-img" src="images/Los_Pescadores_Restaurante_Tacos_De_Hamachi.jpg">
+                </div>
+                <div class="col s6">
+                    <img class="materialboxed responsive-img" src="images/Los_Pescadores_Restaurante_Camarones_Coco_Cancun.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s6">
+                    <img class="materialboxed responsive-img" src="images/Los_Pescadores_pulpo_alPesto.jpg">
+                </div>
+                <div class="col s6">
+                    <img class="materialboxed responsive-img" src="images/Los_Pescadores_Restaurante_Camarones_Con_Ravioles.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s6">
+                    <img class="materialboxed responsive-img" src="images/Los_Pescadores_Restaurante_Salon_Almendrado.jpg">
+                </div>
+                <div class="col s6">
+                    <img class="materialboxed responsive-img" src="images/Los_Pescadores_Restaurante_Ensalada_Reyna.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s6">
+                    <img class="materialboxed responsive-img" src="images/Los_Pescadores_Restaurante_Helado_De_Leche_quemada.jpg">
+                </div>
+                <div class="col s6">
+                    <img class="materialboxed responsive-img" src="images/Los_Pescadores_Restaurante_Crepas_De_Cajet.jpg">
+                </div>
+            </div>
         </div>
-        <div class="carousel-item white-text" href="#two!">
-            <img src="images/comida2.jpg" alt="">
-        </div>
-        <div class="carousel-item white-text" href="#three!">
-            <img src="images/comida2.jpg" alt="">
-        </div>
-    </div>
-    <!-- body -->
-    <div class="container">
-        <br class="hide-on-small-only">
-        <h4 class="center-align hide-on-med-and-up">NUESTRA COCINA</h4>
-        <h3 class="center-align hide-on-small-only">NUESTRA COCINA</h3>
-        <p class="justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat nisi corporis exercitationem asperiores quam vel aspernatur quo saepe quasi soluta. Aliquam asperiores ipsa laboriosam aliquid obcaecati? Ducimus eos sit officiis. Sunt adipisicing eu sint eiusmod aliqua anim. Incididunt id occaecat exercitation velit. Exercitation deserunt ad officia irure ut.</p>
-        <br>
-        <h5 class="center-align hide-on-med-and-up">¿ANTOJO DE MARISCOS? <br> CHECA NUESTRA GALERIA</h5>
-        <h4 class="center-align hide-on-small-only">¿ANTOJO DE MARISCOS? <br> CHECA NUESTRA GALERIA</h4>
-        <div class="row">
-            <div class="col s6"><img class="responsive-img" src="images/comida.jpg" alt=""></div>
-            <div class="col s6"><img class="responsive-img" src="images/comida.jpg" alt=""></div>
-            <div class="col s6"><img class="responsive-img" src="images/comida.jpg" alt=""></div>
-            <div class="col s6"><img class="responsive-img" src="images/comida.jpg" alt=""></div>
-            <div class="col s6"><img class="responsive-img" src="images/comida.jpg" alt=""></div>
-            <div class="col s6"><img class="responsive-img" src="images/comida.jpg" alt=""></div>
-            <div class="col s6"><img class="responsive-img" src="images/comida.jpg" alt=""></div>
-            <div class="col s6"><img class="responsive-img" src="images/comida.jpg" alt=""></div>
+        <!-- Desktop -->
+        <div class="hide-on-small-only">
+            <div class="row">
+                <div class="col m4">
+                    <img class="materialboxed responsive-img" src="images/Los_Pescadores_Restaurante_Tacos_De_Hamachi.jpg">
+                </div>
+                <div class="col m4">
+                    <img class="materialboxed responsive-img" src="images/Los_Pescadores_Restaurante_Camarones_Coco_Cancun.jpg">
+                </div>
+                <div class="col m4">
+                    <img class="materialboxed responsive-img" src="images/Los_Pescadores_pulpo_alPesto.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m6">
+                    <img class="materialboxed responsive-img" src="images/Los_Pescadores_Restaurante_Camarones_Con_Ravioles.jpg">
+                </div>
+                <div class="col m6">
+                    <img class="materialboxed responsive-img" src="images/Los_Pescadores_Restaurante_Salon_Almendrado.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m4">
+                    <img class="materialboxed responsive-img" src="images/Los_Pescadores_Restaurante_Ensalada_Reyna.jpg">
+                </div>
+                <div class="col m4">
+                    <img class="materialboxed responsive-img" src="images/Los_Pescadores_Restaurante_Helado_De_Leche_quemada.jpg">
+                </div>
+                <div class="col m4">
+                    <img class="materialboxed responsive-img" src="images/Los_Pescadores_Restaurante_Crepas_De_Cajet.jpg">
+                </div>
+            </div>
         </div>
         <div class="center">
-            <a class="waves-effect pescadores-color-background  btn">VE EL MENÚ COMPLETO</a>
+            <a class="waves-effect waves-light btn">DESCARGAR EL MENÚ</a>
         </div>
-        <h4 class="pescadores-color-texto center-align hide-on-med-and-up">VISITANOS</h4>
-        <h3 class="pescadores-color-texto center-align hide-on-small-only">VISITANOS</h3>
-        <p class="pescadores-color-texto center-align hide-on-med-and-up">Contamos con tres sucursales</p>
-        <h6 class="pescadores-color-texto center-align hide-on-small-only">Contamos con tres sucursales</h6>
-    </div>
-    <section class="hide-on-large-only">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60354.24094518583!2d-98.20223639999999!3d19.013548999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe21d2e3687fd6cab!2sLOS+PESCADORES+DEL+MAR!5e0!3m2!1ses!2smx!4v1537391621381" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-        <h5 class="pescadores-color-texto center-align"><strong>Matriz: San Manuel</strong></h5>
-        <h6 class="pescadores-color-texto center-align">Blvd. 14 sur 5520, San Manuel</h6>
-        <h6 class="pescadores-color-texto center-align">Tel. (222) 130 13 15</h6>
-        <br>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.3895082224285!2d-98.25117658557139!3d19.046604687104775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc71c228b4c37%3A0x91b4be182ed6882d!2sLos+Pescadores%2C+Cocina+Sin+L%C3%ADmites!5e0!3m2!1ses!2smx!4v1537391842867" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-        <h5 class="pescadores-color-texto center-align"><strong>Sucursal Zavaleta</strong></h5>
-        <h6 class="pescadores-color-texto center-align">Calzada Zavaleta 4126 Sta. Cruz Buenavista</h6>
-        <h6 class="pescadores-color-texto center-align">Tel. (222) 169 57 71</h6>
-        <br>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.7405280792836!2d-98.25719568557167!3d19.03115198711365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc87400000003%3A0x5ced8b8d45ef0d71!2sLOS+PESCADORES+ORION+CIUDAD+JUDICIAL!5e0!3m2!1ses!2smx!4v1537391895506" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-        <h5 class="pescadores-color-texto center-align"><strong>Sucursal Orión</strong></h5>
-        <h6 class="pescadores-color-texto center-align">Calle Mira No. 212 L-11 La Viga</h6>
-        <h6 class="pescadores-color-texto center-align">Tel. (222) 431 41 91</h6>
-    </section>
-    <section class="hide-on-med-and-down container">
-        <br>
+        <div class="pescadores-color-background white-text">
+            <h2 class="center">VISITANOS</h2>
+            <p class="center">Contamos con tres sucursales</p>
+        </div>
         <div class="row">
-            <div class="col l4">
+            <div class="col s12 m4">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60354.24094518583!2d-98.20223639999999!3d19.013548999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe21d2e3687fd6cab!2sLOS+PESCADORES+DEL+MAR!5e0!3m2!1ses!2smx!4v1537391621381" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-                <h5 class="pescadores-color-texto center-align"><strong>Matriz: San Manuel</strong></h5>
-                <h6 class="pescadores-color-texto center-align">Blvd. 14 sur 5520, San Manuel</h6>
-                <h6 class="pescadores-color-texto center-align">Tel. (222) 130 13 15</h6>
+                <h5 class="pescadores-color-texto"><strong>Matriz: San Manuel</strong></h5>
+                <h6 class="">Blvd. 14 sur 5520, San Manuel</h6>
+                <h6 class="">Tel. (222) 130 13 15</h6>
+                <h6>Horario: 10:00 am - 9:00 pm</h6>
             </div>
-            <div class="col l4">
+            <div class="col s12 m4">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.3895082224285!2d-98.25117658557139!3d19.046604687104775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc71c228b4c37%3A0x91b4be182ed6882d!2sLos+Pescadores%2C+Cocina+Sin+L%C3%ADmites!5e0!3m2!1ses!2smx!4v1537391842867" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-                <h5 class="pescadores-color-texto center-align"><strong>Sucursal Zavaleta</strong></h5>
-                <h6 class="pescadores-color-texto center-align">Calzada Zavaleta 4126 Sta. Cruz Buenavista</h6>
-                <h6 class="pescadores-color-texto center-align">Tel. (222) 169 57 71</h6>
+                <h5 class="pescadores-color-texto"><strong>Sucursal Zavaleta</strong></h5>
+                <h6 class="">Calzada Zavaleta 4126 Sta. Cruz Buenavista</h6>
+                <h6 class="">Tel. (222) 169 57 71</h6>
+                <h6>Horario: 10:00 am - 9:00 pm</h6>
             </div>
-            <div class="col l4">
+            <div class="col s12 m4">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.7405280792836!2d-98.25719568557167!3d19.03115198711365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc87400000003%3A0x5ced8b8d45ef0d71!2sLOS+PESCADORES+ORION+CIUDAD+JUDICIAL!5e0!3m2!1ses!2smx!4v1537391895506" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-                <h5 class="pescadores-color-texto center-align"><strong>Sucursal Orión</strong></h5>
-                <h6 class="pescadores-color-texto center-align">Calle Mira No. 212 L-11 La Viga</h6>
-                <h6 class="pescadores-color-texto center-align">Tel. (222) 431 41 91</h6>
+                <h5 class="pescadores-color-texto"><strong>Sucursal Orión</strong></h5>
+                <h6 class="">Calle Mira No. 212 L-11 La Viga</h6>
+                <h6 class="">Tel. (222) 431 41 91</h6>
+                <h6>Horario: 10:00 am - 9:00 pm</h6>
             </div>
-        </div>        
-    </section>
-    <div class="container">
-        <br>
-        <h4 class="pescadores-color-texto center-align">CONTÁCTANOS</h4>
-        <div class="row">
-            <form action="" class="col s12">
-                <div class="row">
-                    <div class="input-field col s12">
-                        <span class="pescadores-color-texto">Nombre:</span>
-                        <input id="nombre" type="text" class="validate">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <span class="pescadores-color-texto">E-mail:</span>
-                        <input id="email" type="email" class="validate">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <span class="pescadores-color-texto">Mesaje:</span>
-                        <textarea id="textarea1" class="materialize-textarea" style="height:150px"></textarea>
-                    </div>
-                </div>
-                <div class="center">
-                    <a class="waves-effect pescadores-color-background  btn">Enviar</a>
-                </div>
-            </form>
         </div>
-    </div>
+        <div class="contacto">
+            <div class="pescadores-color-background-azul white-text">
+                <h2 class="center">CONTÁCTANOS</h2>
+                <p class="center">Queremos esucharte</p>
+            </div>
+            <div class="row">
+                <div class="col m4"></div>
+                <div class="col m4">
+                    <form action="" class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <span class="pescadores-color-texto">Nombre:</span>
+                                <input id="nombre" type="text" class="validate">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <span class="pescadores-color-texto">E-mail:</span>
+                                <input id="email" type="email" class="validate">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <span class="pescadores-color-texto">Mesaje:</span>
+                                <textarea id="textarea1" class="materialize-textarea" style="height:150px"></textarea>
+                            </div>
+                        </div>
+                        <div class="center">
+                            <a class="waves-effect pescadores-color-background-azul  btn">Enviar</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="col m4"></div>
+            </div>
+        </div>
+    </section>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/materialize.js"></script>

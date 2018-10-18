@@ -14,6 +14,9 @@ body{
 .pescadores-color-background{
     background-color: #fa8619;
 }
+.pescadores-color-background-azul{
+    background-color: #32c0c4;
+}
 .input-field input[type=text] {
     border: 2px solid #fa8619;
     border-radius: 4px;
@@ -56,4 +59,8 @@ body{
 }
 .btn:hover{
     background-color: #fa8619;
+}
+.slider .slides li .caption{
+    width: 100%;
+    left: 0%;
 }
