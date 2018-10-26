@@ -12,14 +12,23 @@
 </head>
 <body>
     <div class="slider">
-        <nav class="pescadores-color-background-opacity" style="position: absolute; z-index:100;">
+        <nav class="pescadores-color-background-opacity" style="position: fixed; z-index:100;">
             <div class="container">
                 <div class="nav-wrapper">
                     <a href="#!" class="brand-logo center">
-                        <img style="height:65px" src="images/pesca.png" alt="">
+                        <img class="hide-on-small-only" style="height:65px" src="images/Logotipo_Los_Pescadores.png" alt="">
+                        <img class="hide-on-med-and-up" style="height:55px" src="images/Logotipo_Los_Pescadores.png" alt="">
+                    </a>
+                    <a href="" class="right">
+                        <img class="hide-on-small-only" style="height:40px; margin-top: 12px; padding-left: 10px;" src="images/insta.png" alt="">
+                        <img class="hide-on-med-and-up" style="height:30px; margin-top: 15px; padding-left: 10px;" src="images/insta.png" alt="">
+                    </a>
+                    <a href="" class="right">
+                        <img class="hide-on-small-only" style="height:36px; margin-top: 14px;" src="images/facebook.png" alt="">
+                        <img class="hide-on-med-and-up" style="height:26px; margin-top: 17px;" src="images/facebook.png" alt="">
                     </a>
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down hide-on-large-only">
+                    <ul class="right hide-on-med-and-down hide-on-large-only .show-on-xlarge">
                         <li><a href="#nosotros">NOSOTROS</a></li>
                         <li><a href="#galeria">GALERÍA DE FOTOS</a></li>
                         <li><a href="#sucursales">SUCURSALES</a></li>
@@ -38,40 +47,58 @@
             <li>
                 <img src="images/Los_Pescadores_pulpo_alPesto.jpg"> 
                 <div class="caption center-align">
-                    <h2 class="pescadores-color-background-opacity" style="margin-top:250px;">Cocina Sin Límites</h2>
+                    <h2 class="pescadores-color-background-opacity titulo hide-on-small-only" style="margin-top:250px; padding-top: 10px; padding-bottom: 10px;">cocina sin límites</h2>
+                    <h4 class="pescadores-color-background-opacity titulo hide-on-med-and-up" style="margin-top:250px; padding-top: 10px; padding-bottom: 10px;">cocina sin límites</h4>
                 </div>
             </li>
             <li>
                 <img src="images/Los_Pescadores_cumpleaños.jpg"> 
                 <div class="caption center-align">
-                    <h2 class="pescadores-color-background-opacity" style="margin-top:250px;">Tan especial como el mar</h2>
+                    <h2 class="pescadores-color-background-opacity titulo hide-on-small-only" style="margin-top:250px; padding-top: 10px; padding-bottom: 10px;">tan especial como el mar</h2>
+                    <h4 class="pescadores-color-background-opacity titulo hide-on-med-and-up" style="margin-top:250px; padding-top: 10px; padding-bottom: 10px;">tan especial como el mar</h4>
                 </div>
             </li>
             <li>
                 <img src="images/Los_Pescadores_Cocina_sin-Limites.jpg"> 
                 <div class="caption center-align">
-                    <h2 class="pescadores-color-background-opacity" style="margin-top:250px;">El sabor del mar en tu ciudad</h2>
+                    <h2 class="pescadores-color-background-opacity titulo hide-on-small-only" style="margin-top:250px; padding-top: 10px; padding-bottom: 10px;">el sabor del mar en tu ciudad</h2>
+                    <h4 class="pescadores-color-background-opacity titulo hide-on-med-and-up" style="margin-top:250px; padding-top: 10px; padding-bottom: 10px;">el sabor del mar en tu ciudad</h4>
                 </div>
             </li>
         </ul>
     </div>
     <section class="nosotros">
         <br>
-        <div class="container" id="nosotros" >
-            <h2 class="center">NUESTRA COCINA</h2>
-            <p class="center">
-                Los Pescadores somos más que un restaurante de mariscos, nos caracterizamos por nuestra calidéz, ambiente especial y excelente servicio. 
-                <br>
-                Desde hace más de 15 años, nos hemos distinguido por tener ingredientes frescos y el mejor sazón veracruzano en la ciudad de Puebla, todo para hacer de la visita de nuestros clientes un momento agradable, lleno de alegría y excelentes recuerdos. Nuestra Cocina Sin Límites, hará gozar a tu paladar cada bocado de nuestros platillos especiales en Los Pescadores, disfrutando del sabor del pescado y los mariscos que tanto te gustan. 
-                <br>
-                Contamos con tres sucursales en la ciudad, para que siempre puedas disfrutar de la variedad del mar: Calzada Zavaleta, San Manuel y Orión. Visítanos y déjate consentir por los sabores de la costa, en cada bocado te sentirás justo como en el mar. Los Pescadores, Cocina Sin Límites.                    
-                <div style="height:50px"></div>
-            </p>
+        <div style="margin: 0 auto; width: 95%" id="nosotros" >
+            <h2 class="center titulo hide-on-small-only">NUESTRA COCINA</h2>
+            <h3 class="center titulo hide-on-med-and-up">NUESTRA COCINA</h3>
+            <br>
+            <div class="hide-on-small-only">
+                <h5 class="texto" style="text-align:justify;">
+                    Los Pescadores somos más que un restaurante de mariscos, nos caracterizamos por nuestra calidéz, ambiente especial y excelente servicio. 
+                    <br>
+                    Desde hace más de 15 años, nos hemos distinguido por tener ingredientes frescos y el mejor sazón veracruzano en la ciudad de Puebla, todo para hacer de la visita de nuestros clientes un momento agradable, lleno de alegría y excelentes recuerdos. Nuestra Cocina Sin Límites, hará gozar a tu paladar cada bocado de nuestros platillos especiales en Los Pescadores, disfrutando del sabor del pescado y los mariscos que tanto te gustan. 
+                    <br>
+                    Contamos con tres sucursales en la ciudad, para que siempre puedas disfrutar de la variedad del mar: Calzada Zavaleta, San Manuel y Orión. Visítanos y déjate consentir por los sabores de la costa, en cada bocado te sentirás justo como en el mar. Los Pescadores, Cocina Sin Límites.                    
+                    <div style="height:50px"></div>
+                </h5>
+            </div>
+            <div class="hide-on-med-and-up">
+                <p class="texto" style="text-align:justify;">
+                    Los Pescadores somos más que un restaurante de mariscos, nos caracterizamos por nuestra calidéz, ambiente especial y excelente servicio. 
+                    <br>
+                    Desde hace más de 15 años, nos hemos distinguido por tener ingredientes frescos y el mejor sazón veracruzano en la ciudad de Puebla, todo para hacer de la visita de nuestros clientes un momento agradable, lleno de alegría y excelentes recuerdos. Nuestra Cocina Sin Límites, hará gozar a tu paladar cada bocado de nuestros platillos especiales en Los Pescadores, disfrutando del sabor del pescado y los mariscos que tanto te gustan. 
+                    <br>
+                    Contamos con tres sucursales en la ciudad, para que siempre puedas disfrutar de la variedad del mar: Calzada Zavaleta, San Manuel y Orión. Visítanos y déjate consentir por los sabores de la costa, en cada bocado te sentirás justo como en el mar. Los Pescadores, Cocina Sin Límites.                    
+                    <div style="height:20px"></div>
+                </p>
+            </div>
         </div>
     </section>
     <section class="galery">
         <div id="galeria">
-            <h2 class="pescadores-color-background-azul center white-text galeria" >¿ANTOJO DE MARISCOS?</h2>
+            <h2 class="pescadores-color-background-azul center white-text galeria titulo hide-on-small-only">¿ANTOJO DE MARISCOS?</h2>
+            <h4 class="pescadores-color-background-azul center white-text galeria titulo hide-on-med-and-up">¿ANTOJO DE MARISCOS?</h4>
             <!-- Movil -->
             <div class="hide-on-med-and-up">
                 <div class="row">
@@ -140,17 +167,25 @@
                     </div>
                 </div>
             </div>
+            <br>
             <div class="center">
-                <a class="waves-effect waves-light btn" style="padding-top: 12px;"><span style="font-size:35px;">DESCARGAR EL MENÚ</span></a>
+                <a href="media/menu_digital_Los_Pescadores.pdf" class="waves-effect waves-light btn titulo hide-on-small-only" style="padding-top: 12px;"><span style="font-size:35px;">DESCARGAR EL MENÚ</span></a>
+                <a href="media/menu_digital_Los_Pescadores.pdf" class="waves-effect waves-light btn titulo hide-on-med-and-up" style="padding-top: 12px;"><span style="font-size:25px;">DESCARGAR EL MENÚ</span></a>
             </div>
+            <div style="height:50px"></div>
         </div>
     </section>
     <section>
         <div id="sucursales">
-            <div class="pescadores-color-background white-text">
-                <h2 class="center">VISITANOS</h2>
-                <p class="center">Contamos con tres sucursales</p>
+            <div class="pescadores-color-background white-text contacto hide-on-small-only">
+                <h2 class="center titulo" style="margin-bottom: 0px;">VISITANOS</h2>
+                <h5 class="center escucharte texto">Contamos con tres sucursales</h5>
             </div>
+            <div class="pescadores-color-background white-text contacto hide-on-med-and-up">
+                <h4 class="center titulo" style="margin-bottom: 0px;">VISITANOS</h4>
+                <h6 class="center escucharte texto">Contamos con tres sucursales</h6>
+            </div>
+            <br>
             <div class="row">
                 <div class="col s12 m4">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60354.24094518583!2d-98.20223639999999!3d19.013548999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe21d2e3687fd6cab!2sLOS+PESCADORES+DEL+MAR!5e0!3m2!1ses!2smx!4v1537391621381" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -158,12 +193,12 @@
                         <div class="col s6 m12">
                             <br class="hide-on-med-and-up">
                             <br class="hide-on-med-and-up">
-                            <h5 class="pescadores-color-texto"><strong>Matriz: San Manuel</strong></h5>
+                            <h5 class="pescadores-color-texto texto"><strong>Matriz: San Manuel</strong></h5>
                         </div>
                         <div class="col s6 m12">
-                            <h6 class="">Blvd. 14 sur 5520, San Manuel</h6>
-                            <h6 class="">Tel. (222) 130 13 15</h6>
-                            <h6>Horario: 10:00 am - 9:00 pm</h6>
+                            <h6 class="texto">Blvd. 14 sur 5520, San Manuel</h6>
+                            <h6 class="texto">Tel. (222) 130 13 15</h6>
+                            <h6 class="texto">Horario: 10:00 am - 9:00 pm</h6>
                         </div>
                     </div>
                 </div>
@@ -173,12 +208,12 @@
                         <div class="col s6 m12">
                             <br class="hide-on-med-and-up">
                             <br class="hide-on-med-and-up">
-                            <h5 class="pescadores-color-texto"><strong>Sucursal Zavaleta</strong></h5>
+                            <h5 class="pescadores-color-texto texto"><strong>Sucursal Zavaleta</strong></h5>
                         </div>
                         <div class="col s6 m12">
-                            <h6 class="">Calzada Zavaleta 4126 Sta. Cruz Buenavista</h6>
-                            <h6 class="">Tel. (222) 169 57 71</h6>
-                            <h6>Horario: 10:00 am - 9:00 pm</h6>
+                            <h6 class="texto">Calzada Zavaleta 4126 Sta. Cruz Buenavista</h6>
+                            <h6 class="texto">Tel. (222) 169 57 71</h6>
+                            <h6 class="texto">Horario: 10:00 am - 9:00 pm</h6>
                         </div>
                     </div>
                 </div>
@@ -188,12 +223,12 @@
                         <div class="col s6 m12">
                             <br class="hide-on-med-and-up">
                             <br class="hide-on-med-and-up">
-                            <h5 class="pescadores-color-texto"><strong>Sucursal Orión</strong></h5>
+                            <h5 class="pescadores-color-texto texto"><strong>Sucursal Orión</strong></h5>
                         </div>
                         <div class="col s6 m12">
-                            <h6 class="">Calle Mira No. 212 L-11 La Viga</h6>
-                            <h6 class="">Tel. (222) 431 41 91</h6>
-                            <h6>Horario: 10:00 am - 9:00 pm</h6>
+                            <h6 class="texto">Calle Mira No. 212 L-11 La Viga</h6>
+                            <h6 class="texto">Tel. (222) 431 41 91</h6>
+                            <h6 class="texto">Horario: 10:00 am - 9:00 pm</h6>
                         </div>
                     </div>
                 </div>
@@ -202,9 +237,13 @@
     </section>
     <section class="contac">
         <div class="contacto" id="contacto">
-            <div class="pescadores-color-background-azul-opacity white-text">
-                <h2 class="center contacto">CONTÁCTANOS</h2>
-                <p class="center escucharte">Queremos esucharte</p>
+            <div class="pescadores-color-background-azul-opacity white-text contacto hide-on-small-only">
+                <h2 class="center titulo" style="margin-bottom: 0px;">CONTÁCTANOS</h2>
+                <h5 class="center escucharte texto">Queremos esucharte</h5>
+            </div>
+            <div class="pescadores-color-background-azul-opacity white-text contacto hide-on-med-and-up">
+                <h4 class="center titulo" style="margin-bottom: 0px;">CONTÁCTANOS</h4>
+                <h6 class="center escucharte texto">Queremos esucharte</h6>
             </div>
             <div class="row">
                 <div class="col hide-on-small-only m4"></div>
@@ -212,44 +251,56 @@
                     <form action="" class="col s12">
                         <div class="row">
                             <div class="input-field col s12">
-                                <span class="pescadores-color-texto">Nombre:</span>
+                                <span class="pescadores-color-texto texto">Nombre:</span>
                                 <input id="nombre" type="text" class="validate">
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <span class="pescadores-color-texto">E-mail:</span>
+                                <span class="pescadores-color-texto texto">E-mail:</span>
                                 <input id="email" type="email" class="validate">
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <span class="pescadores-color-texto">Mesaje:</span>
+                                <span class="pescadores-color-texto texto">Mesaje:</span>
                                 <textarea id="textarea1" class="materialize-textarea" style="height:150px"></textarea>
                             </div>
                         </div>
                         <div class="center">
-                            <a class="waves-effect pescadores-color-background-azul  btn" style="padding-top: 12px;"><span style="font-size:35px;">Enviar</span></a>
+                            <a class="waves-effect pescadores-color-background-azul  btn titulo" style="padding-top: 12px;"><span style="font-size:35px;">Enviar</span></a>
                         </div>
+                        <div style="height:20px"></div>
                     </form>
-                    <br>
-                    <h5 class="center">Siguenos en:</h5>
+                    <h5 class="center texto">Siguenos en:</h5>
                     <div class="center">
-                        <i class="fab fa-facebook-square pescadores-color-texto"></i>
-                        <i class="fab fa-instagram pescadores-color-texto"></i>
+                        <a href="">
+                            <img style="width: 40px; padding-top: -3px" src="images/facebook-naranja.png" alt="">
+                        </a>
+                        <a href="">
+                            <img style="width: 40px;" src="images/insta-naranja.png" alt="">
+                        </a>
                     </div>
                 </div>
                 <div class="col hide-on-small-only m4"></div>
             </div>
             <div class="row">
-                <div class="col m6">
-                    <p class="center pescadores-color-texto">Todos los derechos reservados</p>
-                    <p class="center pescadores-color-texto"><strong>Aviso de privacidad</strong></p>
+                <div class="col m6 s12">
+                    <p class="center pescadores-color-texto texto">Todos los derechos reservados</p>
+                    <a href="media/aviso-clientes-LosPescadores.pdf"><p class="center pescadores-color-texto texto"><strong>Aviso de privacidad</strong></p></a>
                 </div>
-                <div class="col m6">
-                    <p class="center pescadores-color-texto">Sitio diseñado por</p>
+                <div class="col m6 s12">
+                    <p class="center pescadores-color-texto texto">Sitio diseñado por</p>
+                    <div class="row">
+                        <div class="col m4 s4"></div>
+                        <div class="col m4 s4">
+                            <a href="www.milkshake.com.mx" target="_blank"><img src="images/logo.png" alt="" class="responsive-img"></a>
+                        </div>
+                        <div class="col m4 s4"></div>
+                    </div>
                 </div>
             </div>
+            <div style="height:1px"></div>
         </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
