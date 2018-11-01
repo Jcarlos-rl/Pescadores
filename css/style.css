@@ -8,7 +8,11 @@ body{
 }
 @font-face{
     font-family: Releway;
-    src: url("../font/Raleway-SemiBold.ttf") format("opentype");
+    src: url("../font/Raleway-Light.ttf") format("opentype");
+}
+::placeholder{
+    color: #f68820;
+    opacity: 1;
 }
 .titulo{
     font-family: Gobold;
@@ -100,7 +104,7 @@ body{
     left: 0%;
 }
 .nosotros{
-    background-image: url(../images/textura-1200px.png);
+    background-image: url(../images/textura_los_pescadores.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -121,12 +125,20 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#materialbox-overlay{
+    background-color: rgba(246, 136, 32, 0.9);
+}
 @media only screen and (max-width: 1200px){
     .show-on-large-and-down{
         display:block !important
     }
     .hide-on-extra-and-down{
         display: none !important
+    }
+}
+@media only screen and (min-width: 1200px){
+    .redes{
+        box-shadow: -8px 10px 5px 0px rgba(117,113,117,1);
     }
 }
 @media only screen and (min-width: 1680px){
