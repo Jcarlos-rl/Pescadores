@@ -111,7 +111,7 @@ body{
 .galery{
     margin-top: -13px;
 }
-.btn, .btn-large, .btn-small{
+.btn, .btn-large{
     background-image: url(../images/texturades.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -128,6 +128,9 @@ body{
 #materialbox-overlay{
     background-color: rgba(246, 136, 32, 0.9);
 }
+.btn-floating:hover{
+    background-color: #f68820;
+}
 @media only screen and (max-width: 1200px){
     .show-on-large-and-down{
         display:block !important
@@ -138,7 +141,12 @@ body{
 }
 @media only screen and (min-width: 1200px){
     .redes{
-        box-shadow: -8px 10px 5px 0px rgba(117,113,117,1);
+        box-shadow: -5px 10px 10px 0px rgba(117,113,117,1);
+    }
+    .slider .slides li img{
+        background-position: 0px;
+        background-position-x: 0px;
+        background-position-y: center;
     }
 }
 @media only screen and (min-width: 1680px){

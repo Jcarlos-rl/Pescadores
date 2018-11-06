@@ -7,7 +7,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('.slider').slider({
         indicators: false,
-        height: 450
+        height: 500
     });
 });
 
