@@ -138,15 +138,16 @@ body{
     .hide-on-extra-and-down{
         display: none !important
     }
+    .nosotros{
+        margin-top: 570px;
+    }
 }
 @media only screen and (min-width: 1200px){
     .redes{
         box-shadow: -5px 10px 10px 0px rgba(117,113,117,1);
     }
-    .slider .slides li img{
-        background-position: 0px;
-        background-position-x: 0px;
-        background-position-y: center;
+    .nosotros{
+        margin-top: 570px;
     }
 }
 @media only screen and (min-width: 1680px){
