@@ -139,7 +139,7 @@ body{
         display: none !important
     }
     .nosotros{
-        margin-top: 570px;
+        margin-top: 550px;
     }
 }
 @media only screen and (min-width: 1200px){
@@ -147,7 +147,7 @@ body{
         box-shadow: -5px 10px 10px 0px rgba(117,113,117,1);
     }
     .nosotros{
-        margin-top: 570px;
+        margin-top: 650px;
     }
 }
 @media only screen and (min-width: 1680px){
