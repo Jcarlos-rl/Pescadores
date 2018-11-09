@@ -104,7 +104,7 @@ body{
     left: 0%;
 }
 .nosotros{
-    background-image: url(../images/textura_los_pescadores.jpg);
+    background-image: url(../images/textura-1200px.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -138,16 +138,10 @@ body{
     .hide-on-extra-and-down{
         display: none !important
     }
-    .nosotros{
-        margin-top: 530px;
-    }
 }
 @media only screen and (min-width: 1200px){
     .redes{
         box-shadow: -5px 10px 10px 0px rgba(117,113,117,1);
-    }
-    .nosotros{
-        margin-top: 700px;
     }
 }
 @media only screen and (min-width: 1680px){

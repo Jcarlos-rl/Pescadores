@@ -6,7 +6,8 @@ $(document).ready(function(){
 /*carousel*/
 $(document).ready(function(){
     $('.slider').slider({
-        indicators: false
+        indicators: false,
+        height: $(window).height()
     });
 });
 
